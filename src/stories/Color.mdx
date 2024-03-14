@@ -1,0 +1,19 @@
+import { Canvas, Meta, Unstyled, Story } from '@storybook/blocks'
+
+import * as ColorStories from './Color.stories'
+
+<Meta of={ColorStories} />
+
+<Unstyled>
+  <h1>color palette</h1>
+</Unstyled>
+<Story of={ColorStories.Primary} />
+<Story of={ColorStories.Secondary} />
+<Story of={ColorStories.Neutral} />
+<Story of={ColorStories.GreenScreen} />
+<Unstyled>
+  <h2>Illustration Colors</h2>
+</Unstyled>
+<Story of={ColorStories.IllustrationOrange} />
+<Story of={ColorStories.IllustrationPurple} />
+<Story of={ColorStories.IllustrationBlue} />
