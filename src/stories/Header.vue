@@ -40,20 +40,18 @@
 </template>
 
 <script>
-import './header.css';
-import MyButton from './Button.vue';
+import './header.css'
 
 export default {
   name: 'my-header',
 
-  components: { MyButton },
-
   props: {
     user: {
-      type: Object,
-    },
+      type: Object
+    }
   },
 
-  emits: ['login', 'logout', 'createAccount'],
-};
+  emits: ['login', 'logout', 'createAccount']
+}
 </script>
+./Button/Button.vue

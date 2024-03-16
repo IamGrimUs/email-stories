@@ -1,10 +1,3 @@
-<script setup>
-defineProps({
-  numberOfColors: Number,
-  sectionHeadline: String,
-  backgroundColor: Array
-})
-</script>
 <template>
   <h2>{{ sectionHeadline }}</h2>
   <section>
@@ -18,17 +11,12 @@ defineProps({
     </div>
   </section>
 </template>
-<style scoped>
-section {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2%;
-}
-.box {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  width: 158px;
-  height: 100px;
-  margin: var(--spacing-unit) 0 var(--spacing-unit-x4);
-}
-</style>
+
+<script setup>
+import './ThemeColors.css'
+defineProps({
+  numberOfColors: Number,
+  sectionHeadline: String,
+  backgroundColor: Array
+})
+</script>

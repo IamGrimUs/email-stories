@@ -25,8 +25,8 @@
           class="btnPrim1"
         >
           <!--[if mso]><i style="mso-font-width:200%;mso-text-raise:120%" hidden>&#8195;</i><span style="mso-text-raise:65%;"><!
-          [endif]-->{{ ctaCopy
-          }}}}<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&#8195;&#8203;</i><![endif]-->
+          [endif]-->{{ ctaCopy }}
+          <!--[if mso]></span><i style="mso-font-width:200%;" hidden>&#8195;&#8203;</i><![endif]-->
         </a>
       </p>
       <!--[if mso]></td></tr></table><![endif]-->

@@ -1,8 +1,8 @@
-import ColorBlock from '../components/ColorBlock.vue'
+import ThemeColors from './ThemeColors.vue'
 
 export default {
-  title: 'Example/Colors',
-  component: ColorBlock,
+  title: 'Theme/Colors',
+  component: ThemeColors,
   parameters: {
     // layout: 'centered',
     docs: {

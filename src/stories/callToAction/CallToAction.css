@@ -1,0 +1,48 @@
+.storybook-button {
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  line-height: 24px;
+  color: #000001;
+  transition: 0.25s;
+}
+.storybook-button--primary {
+  color: #fdfeff;
+  background-color: #000001;
+}
+.storybook-button--primary:hover {
+  background-color: #808080;
+}
+.storybook-button--secondary {
+  border: 2px solid #000001;
+}
+.storybook-button--secondary:hover,
+.storybook-button--tertiary:hover {
+  background-color: #bfbfbf;
+}
+.storybook-button--tertiary {
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+.storybook-button--desktop {
+  width: 186px;
+  padding: 12px 40px;
+}
+.storybook-button--mobile {
+  width: 426px;
+  padding: 12px 40px;
+}
+.storybook-button--login {
+  width: 142px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weidth: 700;
+  border: 2px solid #000001;
+}
+.storybook-button--login:hover {
+  color: #808080;
+  border: 2px solid #808080;
+}
