@@ -3,7 +3,7 @@ import ThemeSpacing from './ThemeSpacing.vue'
 export default {
   title: 'Theme/Spacing',
   component: ThemeSpacing,
-  tags: ['autodocs'],
+  // tags: ['autodocs'],
   argTypes: {
     spacing: {
       control: {
