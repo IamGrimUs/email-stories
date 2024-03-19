@@ -1,9 +1,9 @@
 <template>
-  <div :class="classes" :style="style">{{ `${spacing}px` }}</div>
+  <span>{{ `${spacing}px` }}</span>
+  <div :class="classes" :style="style"></div>
 </template>
 
 <script>
-import './ThemeSpacing.css'
 import { reactive, computed } from 'vue'
 
 export default {
@@ -22,10 +22,18 @@ export default {
         [`storybook-button--${props.spacing || 10}`]: true
       })),
       style: computed(() => ({
-        height: `${props.spacing}px`,
-        fontSize: `${props.spacing / 2}px`
+        height: `${props.spacing}px`
       }))
     }
   }
 }
 </script>
+
+<style scoped>
+@import './ThemeSpacing.css';
+span {
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 0.25em;
+}
+</style>

@@ -13,10 +13,13 @@
 </template>
 
 <script setup>
-import './ThemeColors.css'
 defineProps({
   numberOfColors: Number,
   sectionHeadline: String,
   backgroundColor: Array
 })
 </script>
+
+<style scoped>
+@import './ThemeColors.css';
+</style>
