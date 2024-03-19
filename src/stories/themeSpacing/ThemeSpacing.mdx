@@ -1,0 +1,30 @@
+import { Canvas, Meta, Unstyled, Story } from '@storybook/blocks'
+
+import * as ThemeSpacing from './ThemeSpacing.stories'
+
+<Meta of={ThemeSpacing} />
+
+<Unstyled>
+  <section style={{ maxWidth: '640px' }}>
+    <h1>Spacing</h1>
+
+      Intended spacing between each module is 40px and spacing between module elements is 20px. Of
+      course, more space can be added if needed, just follow the pattern.
+    	<div style={{ height: '20px' }}></div>
+      <span style={{fontWeight: 700}}>Spacing top/bottom of each module: </span> <span style={{ color: '#e97c3d',fontWeight: 700 }}>40px</span>
+    	<br />
+
+      <span style={{fontWeight: 700}}>Spacing between elements within a module: </span> <span style={{ color: '#e97c3d',fontWeight: 700 }}>20px</span>
+
+  <div style={{ height: '20px' }}></div>
+  </section>
+</Unstyled>
+<section style={{ maxWidth: '1280px' }}>
+  <Story of={ThemeSpacing.Spacing10} />
+  <div style={{ height: '10px' }}></div>
+  <Story of={ThemeSpacing.Spacing20} />
+  <div style={{ height: '10px' }}></div>
+  <Story of={ThemeSpacing.Spacing30} />
+  <div style={{ height: '10px' }}></div>
+  <Story of={ThemeSpacing.Spacing40} />
+</section>
